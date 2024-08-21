@@ -27,5 +27,5 @@ groupAnagrams(['baa', 'aab', 'cab', 'bad', 'abd', 'dab'])
 groupAnagrams(['aab', 'aba', 'abb', 'aba'])
 groupAnagrams(['a'])
 
-# Time complexity: O(n*m) where n is the number of strings in the array and m is the length of the longest string
-# Space complexity: O(n*m) where n is the number of strings in the array and m is the length of the longest string
+# Time complexity: O(n * m) where n is the number of strings in the array and m is the length of the longest string
+# Space complexity: O(n * m) where n is the number of strings in the array and m is the length of the longest string 
