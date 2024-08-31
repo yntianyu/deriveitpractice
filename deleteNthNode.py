@@ -19,6 +19,7 @@ def delete(head, i):
     
     return head
 
+
 delete(ListNode.of([0, 1, 2]), 1)
 delete(ListNode.of([5, 6, 7]), 1)
 delete(ListNode.of([1, 2, 3]), 0)
