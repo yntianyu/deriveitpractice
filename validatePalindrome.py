@@ -16,7 +16,6 @@ def isValid(s):
     return True
 
 
-
 isValid('racecar')
 isValid('a')
 isValid('ab')
