@@ -16,10 +16,10 @@ def listLength(head):
         node = node.next
     return count
 
+
 listLength(ListNode.of([1, 2, 3, 4, 5]))
 listLength(ListNode.of([1, 2]))
 listLength(ListNode.of([1, 1, 1]))
-
 
 # Time complexity: O(n)
 # Space complexity: O(1)
