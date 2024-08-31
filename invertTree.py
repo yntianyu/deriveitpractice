@@ -10,7 +10,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
-        
+
 def invertAll(root):
     if root is None:
         return
@@ -18,6 +18,7 @@ def invertAll(root):
     root.left, root.right = root.right, root.left
     invertAll(root.left)
     invertAll(root.right)
+
 
 invertAll(TreeNode.of([1, 2, 3, None, None, None, 4]))
 invertAll(TreeNode.of([1, 2]))
