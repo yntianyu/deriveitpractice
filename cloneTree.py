@@ -21,5 +21,9 @@ def cloneTree(root):
 
     return clonedRoot
 
+cloneTree(TreeNode.of([7]))
+cloneTree(TreeNode.of([5, 2]))
+cloneTree(TreeNode.of([5, None, 2]))
+
 # Time complexity: O(n)
 # Space complexity: O(n) due to recursion stack
