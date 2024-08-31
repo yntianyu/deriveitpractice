@@ -27,6 +27,7 @@ def deleteNthToLastNode(head, i):
 
     return head
 
+
 deleteNthToLastNode(ListNode.of([1, 2, 3, 4, 5]), 2)
 deleteNthToLastNode(ListNode.of([1, 2, 3, 4, 5]), 5)
 deleteNthToLastNode(ListNode.of([1, 2, 3, 4, 5]), 1)
