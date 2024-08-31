@@ -20,6 +20,7 @@ def reverseList(head):
 
     return prev
 
+
 reverseList(ListNode.of([1]))
 reverseList(ListNode.of([1, 2]))
 reverseList(ListNode.of([1, 2, 3]))
