@@ -27,5 +27,9 @@ def deleteNthToLastNode(head, i):
 
     return head
 
-# Time complexity: O(n)
+deleteNthToLastNode(ListNode.of([1, 2, 3, 4, 5]), 2)
+deleteNthToLastNode(ListNode.of([1, 2, 3, 4, 5]), 5)
+deleteNthToLastNode(ListNode.of([1, 2, 3, 4, 5]), 1)
+
+# Time complexity: O(n^2)
 # Space complexity: O(1) due to constant
