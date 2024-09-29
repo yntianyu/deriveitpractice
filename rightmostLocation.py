@@ -1,6 +1,6 @@
 # Given the root node of a binary tree root, find the rightmost leaf node in the tree, and return its horizontal location.
 
-
+ 
 # Here's the definition of a TreeNode:
 class TreeNode:
     def __init__(self, val=None, left=None, right=None):
