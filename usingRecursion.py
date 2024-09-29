@@ -1,5 +1,6 @@
 # Given the root node of a binary tree root, return the number of nodes in the tree.
 
+
 # Here's the definition of a TreeNode:
 class TreeNode:
     def __init__(self, val=None, left=None, right=None):
